@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Infographic</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .parallax-container {
+            position: relative;
+            height: 500px; /* Adjust the height as needed */
+            overflow: hidden;
+            background-image: url('parallax-image.jpg'); /* Replace with your image */
+            background-size: cover;
+            background-position: center;
+            color: #fff; /* Text color on the parallax section */
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .parallax-text {
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        .content-container {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .section {
+            padding: 50px 0;
+        }
+
+        .section h2 {
+            color: #333; /* Text color on regular sections */
+        }
+
+        .section p {
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Parallax Section -->
+    <div class="parallax-container">
+        <div class="parallax-text">Your Infographic Title</div>
+    </div>
+
+    <!-- Content Section 1 -->
+    <div class="content-container section">
+        <h2>Section 1</h2>
+        <p>Your content goes here.</p>
+    </div>
+
+    <!-- Content Section 2 -->
+    <div class="parallax-container section">
+        <div class="parallax-text">Another Section Title</div>
+    </div>
+
+    <!-- Content Section 3 -->
+    <div class="content-container section">
+        <h2>Section 3</h2>
+        <p>Your content goes here.</p>
+    </div>
+
+    <!-- Add more sections as needed -->
+
+    <script>
+        // Optional: You can add JavaScript for additional functionality if needed
+    </script>
+
+</body>
+
+</html>
